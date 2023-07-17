@@ -1,0 +1,35 @@
+.form-control {
+    margin: 2rem auto;
+    max-width: 40rem;
+    width: 90%;
+    padding: 1rem;
+  }
+  
+.form-control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+.form-control input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  .form-control input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+  
+  .button-control Button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #8b005d;
+    color: white;
+    background: purple;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+  }
